@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sawarabi Mincho', serif;
+    background-color: #212121;
+    color: #E0E0E0;
+}
+
+section {
+    display: grid;
+    height: 100%;
+}
+
+.album {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.album img {
+    height: 100%;
+    width: 100%;
+}
