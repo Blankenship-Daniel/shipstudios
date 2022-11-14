@@ -37,6 +37,10 @@ header {
 
 footer {
   font-size: 1.5em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
 }
 
 .footer-content {
@@ -63,6 +67,7 @@ section {
   background-repeat: no-repeat;
   width: 500px;
   height: 500px;
+  background-size: 500px 500px;
   transition-property: box-shadow, background-image;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
